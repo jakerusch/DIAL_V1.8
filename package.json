@@ -1,0 +1,247 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "dial",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Dial",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "KEY_INVERT_COLORS",
+            "KEY_TEMP_UNIT",
+            "KEY_TEMP",
+            "KEY_TEMP_C",
+            "KEY_ICON"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "menu_icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WIND_WHITE_ICON.png",
+                    "name": "WIND_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WIND_BLACK_ICON.png",
+                    "name": "WIND_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SNOW_WHITE_ICON.png",
+                    "name": "SNOW_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SNOW_BLACK_ICON.png",
+                    "name": "SNOW_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SLEET_WHITE_ICON.png",
+                    "name": "SLEET_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SLEET_BLACK_ICON.png",
+                    "name": "SLEET_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SHOE_WHITE_ICON.png",
+                    "name": "SHOE_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SHOE_BLACK_ICON.png",
+                    "name": "SHOE_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SCREENSHOT.png",
+                    "name": "SCREENSHOT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/RAIN_WHITE_ICON.png",
+                    "name": "RAIN_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/RAIN_BLACK_ICON.png",
+                    "name": "RAIN_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_NIGHT_WHITE_ICON.png",
+                    "name": "PARTLY_CLOUDY_NIGHT_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_NIGHT_BLACK_ICON.png",
+                    "name": "PARTLY_CLOUDY_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_DAY_WHITE_ICON.png",
+                    "name": "PARTLY_CLOUDY_DAY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_DAY_BLACK_ICON.png",
+                    "name": "PARTLY_CLOUDY_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/MIST_NIGHT_WHITE_ICON.png",
+                    "name": "MIST_NIGHT_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/MIST_NIGHT_BLACK_ICON.png",
+                    "name": "MIST_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/MIST_DAY_WHITE_ICON.png",
+                    "name": "MIST_DAY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/MIST_DAY_BLACK_ICON.png",
+                    "name": "MIST_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LIGHTENING_WHITE_ICON.png",
+                    "name": "LIGHTENING_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LIGHTENING_BLACK_ICON.png",
+                    "name": "LIGHTENING_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FOG_WHITE_ICON.png",
+                    "name": "FOG_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FOG_BLACK_ICON.png",
+                    "name": "FOG_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOUDY_WHITE_ICON.png",
+                    "name": "CLOUDY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOUDY_BLACK_ICON.png",
+                    "name": "CLOUDY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_NIGHT_WHITE_ICON.png",
+                    "name": "CLEAR_SKY_NIGHT_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_NIGHT_BLACK_ICON.png",
+                    "name": "CLEAR_SKY_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_DAY_WHITE_ICON.png",
+                    "name": "CLEAR_SKY_DAY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_DAY_BLACK_ICON.png",
+                    "name": "CLEAR_SKY_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BLUETOOTH_DISCONNECTED_WHITE_ICON.png",
+                    "name": "BLUETOOTH_DISCONNECTED_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BLUETOOTH_DISCONNECTED_BLACK_ICON.png",
+                    "name": "BLUETOOTH_DISCONNECTED_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/ULTRALIGHT.ttf",
+                    "name": "ULTRALIGHT_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/ARCON_FONT.ttf",
+                    "name": "ARCON_FONT_14",
+                    "targetPlatforms": null,
+                    "trackingAdjust": -1,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "52972340-5a5e-4452-883a-80e0b3446e8b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.8.0"
+}
